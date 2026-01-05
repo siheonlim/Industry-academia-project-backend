@@ -11,8 +11,8 @@ import sys
 DB_CONFIG = {
     'host': 'localhost',
     'user': 'root',
-    'password': '0000',
-    'database': 'ship_system'
+    'password': 'db_password',
+    'database': 'db_name'
 }
 
 # ------------------------------
