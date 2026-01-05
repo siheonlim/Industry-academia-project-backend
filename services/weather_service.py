@@ -6,7 +6,7 @@ from models.tables import Waypoint
 from datetime import datetime, timedelta, timezone
 import pytz
 
-WEATHER_API_KEY = "759e4a1ab8e34d51a6e100531252705"
+WEATHER_API_KEY = "WEATHER_API_KEY"
 
 # 현재 날씨 조회 (current.json)
 async def fetch_weather_by_route(session: AsyncSession, route_id: int):
